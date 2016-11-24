@@ -3,7 +3,7 @@
 <head>
     <script>
         var thePath = window.location.pathname;
-        lub = thePath.replace(/\//, ' ');
+        lub = thePath.replace(/\//, ' ').trim();
         document.title = "Core Gamers ♥ " + lub;
         
         var meta = document.createElement('meta');
