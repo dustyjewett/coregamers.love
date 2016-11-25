@@ -3,7 +3,7 @@
 <head>
     <script>
         var thePath = window.location.pathname;
-        lub = thePath.replace(/(\/|%20)/g, ' ').trim();
+        lub = thePath.replace(/(\/|%20|_)/g, ' ').trim();
         document.title = "Core Gamers ♥ " + lub;
         
         var meta = document.createElement('meta');
